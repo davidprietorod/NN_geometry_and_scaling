@@ -26,7 +26,7 @@ comes out consistently above `4/d` — by a factor of 1.3 to 1.9, widening with 
 qualitative claim replicates while the quantitative shows an important deviation, at least at this training
 budget.
 
-![Scaling law fits](output/scaling_law_fits.png)
+![Scaling law fits](Error_vs_dimension/output/scaling_law_fits.pdf)
 
 Intrinsic dimension tracks the exponent more closely than latent dimension, consistently
 under both fitting procedures:
@@ -69,7 +69,7 @@ Training collapses the spectrum, and the effect grows with `k`. At `k = 3` the g
 several orders of magnitude: the trained network falls below `10⁻¹⁶` where the untrained one
 sits around `10⁻¹¹`.
 
-![Jacobian rank structure, k=3](output/jacobian_rank_w64_k3.png)
+![Jacobian rank structure, k=3](Rank_analysis/output/jacobian_rank_w64_k3.pdf)
 
 Low-rank structure is not present at initialisation — learning produces it. That the effect
 sharpens with `k` is what one expects if the inner map is aligning with a small number of
