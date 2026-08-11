@@ -10,7 +10,7 @@ run, and report where the results match and where they do not.
 ## 1. Scaling laws and the dimension of the data manifold
 
 **Paper:** Sharma & Kaplan, *A Neural Scaling Law from the Dimension of the Data Manifold*
-([arXiv:2004.10802](https://arxiv.org/abs/2004.10802)) — loss falls off with parameter count
+([arXiv:2004.10802](https://arxiv.org/abs/2004.10802)) where loss falls off with parameter count
 as `L(N) ≈ C₀ + C₁·N^(-α)`, with `α ≈ 4/d` for a data manifold of dimension `d`.
 
 **Setup.** Teacher–student, with the data dimension fixed by construction: Gaussian latents
@@ -53,7 +53,7 @@ width, so `C₀` absorbs the loss and the fit is unreliable.
 ## 2. Kolmogorov–Arnold geometry in shallow MLPs
 
 **Paper:** Freedman & Mulligan, *Spontaneous Kolmogorov-Arnold Geometry in Shallow MLPs*
-([arXiv:2509.12326](https://arxiv.org/abs/2509.12326)) — KA-type geometry emerges on its own
+([arXiv:2509.12326](https://arxiv.org/abs/2509.12326)) where KA-type geometry emerges on its own
 when training ordinary single-hidden-layer MLPs, readable in the Jacobian of the first-layer
 map.
 
