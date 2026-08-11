@@ -22,7 +22,7 @@ estimated with the Levina–Bickel MLE estimator, as in the paper.
 ### Results
 
 The power-law form reproduces and `α` falls monotonically with `d`, but the coefficient
-comes out consistently above `4/d` — by a factor of 1.3 to 1.9, widening with `d`. The
+comes out consistently above `4/d` by a factor of 1.3 to 1.9, widening with `d`. The
 qualitative claim replicates while the quantitative shows an important deviation, at least at this training
 budget.
 
