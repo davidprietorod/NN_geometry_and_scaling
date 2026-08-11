@@ -71,7 +71,7 @@ sits around `10⁻¹¹`.
 
 ![Jacobian rank structure, k=3](Rank_analysis/output/jacobian_rank_w64_k3.pdf)
 
-Low-rank structure is not present at initialisation — learning produces it. That the effect
+Low-rank structure is not present at initialisation: learning produces it. That the effect
 sharpens with `k` is what one expects if the inner map is aligning with a small number of
 directions. This replicates the paper's finding.
 
