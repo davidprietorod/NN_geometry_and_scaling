@@ -45,7 +45,7 @@ width, so `C₀` absorbs the loss and the fit is unreliable.
 
 | Main Files | Contents |
 |---|---|
-| `scaling_law_experiment.ipynb` | Full sweep — trains everything and saves results. Expensive. |
+| `scaling_law_experiment.ipynb` | Full sweep: trains everything and saves results. Expensive. |
 | `scaling_law_analysis.ipynb` | Fits and figures from the saved `results.npz`. **Runs independently.** |
 
 ---
